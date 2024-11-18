@@ -16,8 +16,6 @@
 2. Tech Stack 
 3. Project Structure  
 4. File Descriptions  
-5. Usage
-
 ---
 
 ## ✨ Features
