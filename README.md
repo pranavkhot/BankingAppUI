@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# 💳 Banking App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://chime45.netlify.app" target="_blank">
+    <img src="https://github.com/user-attachments/assets/a9b52b3b-1e8c-4299-97f8-4408b39005c8" alt="Banking App Screenshot" width="100%"/>
+  </a>
+</p>
 
-## Available Scripts
+**Banking App** is a React-based web application that simulates essential banking functionalities. This project focuses on a sleek, responsive design using styled-components and React Router to deliver an intuitive, user-friendly experience. It features components for navigation, account information, and interactive UI elements.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📜 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Features  
+2. Tech Stack 
+3. Project Structure  
+4. File Descriptions  
+5. Usage
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Dynamic Navigation**: Includes a responsive sidebar and smooth navigation.
+- **Interactive UI**: Features styled buttons, forms, and transitions for an engaging user experience.
+- **Account Overview**: Displays mock account and transaction details.
+- **Collapsible Sidebar**: Intuitive menu design for seamless navigation.
+- **Scroll Restoration**: Implements scroll-to-top behavior for better navigation flow.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**: JavaScript library for building dynamic user interfaces.
+- **React Router**: Enables efficient client-side navigation.
+- **Styled-Components**: CSS-in-JS for reusable and dynamic component styling.
+- **React Icons**: Provides customizable icons for enhanced visual elements.
+- **Mock Data**: Simulates user accounts and transactions for UI demonstration.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📁 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### **public/**
+- **index.html**: Template for rendering the React app.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### **src/**
+- **App.js**: Root component for managing layouts and routing.
+- **App.css**: Global styles for the application.
+- **ScrollToTop.js**: Handles scroll restoration between pages.
+- **Data.js**: Contains mock data for account and transaction details.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Components
+- **SidebarElements.js**: Defines a collapsible sidebar with dynamic styling.
+- **SigninElements.js**: Provides components and styles for the login page.
+- **HeroElements.js**: Creates the hero banner with dynamic elements.
+- **InfoElements.js**: Styled components for account and transaction displays.
+- **FooterElements.js**: Footer section with branding and navigation links.
+- **ButtonElements.js**: Reusable styled buttons for consistent design.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## 🔍 Detailed File Descriptions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **Core Files**
+- **`App.js`**: The main application structure, managing routing and layout.
+- **`App.css`**: Global styles for maintaining a cohesive design.
+- **`ScrollToTop.js`**: Ensures smooth scrolling when navigating between routes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### **Major Components**
+- **`SidebarElements.js`**: A collapsible menu for easy navigation across the app.
+- **`SigninElements.js`**: Styled components for the login page, including hover and focus states.
+- **`HeroElements.js`**: Displays an introductory hero banner.
+- **`InfoElements.js`**: Provides a visually structured display for account and transaction details.
+- **`FooterElements.js`**: Footer section with links and branding details.
+- **`ButtonElements.js`**: A set of styled buttons for actions across the app.
 
-### Code Splitting
+---
+### Thank you for exploring Banking App! 💳✨
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
